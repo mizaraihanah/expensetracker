@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Loading</title>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+        
+        <style>
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                margin: 0;
+                background-color: #ebfffd;;
+                background-image: url(img/Seamless.jpg);
+            }
+            .logo-container {
+                text-align: center;
+            }
+            .logo-container img {
+                width: 200px;
+                height: auto;
+                margin-bottom: 20px;
+            }
+            .logo-container h1 {
+                font-size: 24px;
+                font-weight: bold;
+                color: #333;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="logo-container">
+            <img src="img/logo.png" alt="Logo">
+            <h1>Loading...</h1>
+        </div>
+        <script>
+            setTimeout(function() {
+                window.location.href = 'login.html';
+            }, 2500);
+        </script>
+    </body>
+</html>

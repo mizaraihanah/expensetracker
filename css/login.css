@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Comic Sans MS';
+    src: url('fonts/COMIC.TTF');
+}
+
+body {
+    font-family: 'Comic Sans MS', sans-serif;
+    background-color: #ebfffd;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    width: 400px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    padding: 40px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    background-color: #0eb9a9;
+    border-color: #0eb9a9;
+}
+
+.btn-primary:hover {
+    background-color: #0eb9a9;
+    border-color: #0eb9a9;
+}
+
+.text-center {
+    text-align: center;
+}
+
+a {
+    color: #0eb9a9;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,90 @@
+@font-face {
+  font-family: 'Comic Sans MS';
+  src: url('fonts/COMIC.TTF');
+}
+
+body {
+  background-color: #ebfffd;
+  font-family: 'Comic Sans MS', sans-serif;
+  color: #343a40;
+}
+
+h1 {
+  font-weight: 700;
+  color: #0eb9a9;
+}
+
+.card {
+  margin-top: 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-weight: 700;
+  font-size: 1.25em;
+  margin-bottom: 20px;
+}
+
+.table {
+  margin-bottom: 0;
+}
+
+.table thead th {
+  background-color: #0eb9a9;
+  color: white;
+  border-bottom: none;
+}
+
+.table tbody tr:hover {
+  background-color: #e9ecef;
+}
+
+.table th, .table td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+#total-expenses {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #0eb9a9;
+}
+
+button {
+  background-color: #0eb9a9;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+  background-color: #0ea092;
+  transform: scale(1.05);
+}
+
+button:focus {
+  outline: none;
+  box-shadow: #0eb9a9
+}
+
+#expense-chart {
+  max-width: 100%;
+  height: 400px;
+  margin-top: 20px;
+}
+
+.custom-btn {
+  background-color: #0eb9a9;
+  border-color: #0eb9a9;
+}
+
+.custom-btn:hover {
+  background-color: #0c9a8a;
+  border-color: #0c9a8a;
+}
+
